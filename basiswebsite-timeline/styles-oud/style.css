@@ -1,0 +1,316 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button:not([disabled]) {
+  cursor:pointer;
+}
+
+
+
+/* HELE PAGINA */
+
+body {
+  background-color:rgb(68, 183, 221);
+  height:100%;
+  margin:0; 
+  
+}
+
+
+
+/* DE TITEL */
+h1 {
+  color:crimson;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* LIJSTJE */
+ol{
+  display: flex;
+  background-color: blue;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+
+
+}
+
+li {
+  position: relative;
+  background-color: red;
+
+  display:flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+li button {
+  margin-top:1em;
+  font-family:Arial, Helvetica, sans-serif;
+
+  font:inherit;
+  background:none;
+  border:none;
+}
+
+
+
+
+/**********/
+/* PIJPEN (div) */
+/**********/
+
+/* PIJP (VERANDEREN ZOALS MARIO!!!!) */
+.pijp{
+  
+}
+
+
+/* PIJP 1 */
+.pijp1 { 
+  /* height: 10em; */
+  width: 10em;
+  display: grid; 
+  justify-items: center;
+  ;
+}
+
+.pijp1 div:first-of-type {
+  height: 2em;
+  width: 7em;
+  background-color: violet;
+  border-radius: 100%;
+  z-index: 100;
+  }
+
+.pijp1 div:nth-of-type(2){
+  height: 4em;
+  width: 7em;
+  background-color: rgb(68, 183, 0);  
+  background-image: linear-gradient(to left,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 130%);
+  border-radius:  10px  10px  20px  20px;
+  margin-top: -1.5em;
+
+  display:grid;
+  place-items: center;
+}
+
+.pijp1 div:last-of-type{
+  height: 7.5em;
+  width: 5em;
+  background-image: linear-gradient(to right,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 80%);
+  border-radius:  0px 0px  10px  10px;
+  /*   box-shadow: inset 2em 0.1em 3em; */
+  color:rgb(68, 183, 0);
+}
+
+
+/* PIJP 2*/
+.pijp2 { 
+  /* height: 10em; */
+  width: 10em;
+  display: grid; 
+  justify-items: center;
+}
+
+.pijp2 div:first-of-type{
+  height: 2em;
+  width: 7em;
+  background-color: violet;
+  border-radius: 100%;
+  z-index: 100;
+}
+ 
+.pijp2 div:nth-of-type(2){
+  height: 4em;
+  width: 7em;
+  background-color:rgb(68, 183, 0);  
+  background-image: linear-gradient(to left,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 130%);
+  border-radius:  10px  10px  20px  20px;
+  margin-top: -1.5em;
+
+  display:grid;
+  place-items: center;
+} 
+ 
+.pijp2 div:last-of-type{
+  height: 7.5em;
+  width: 5em;
+  background-image: linear-gradient(to right,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 80%);
+  border-radius:  0px 0px  10px  10px;
+  /*   box-shadow: inset 2em 0.1em 3em; */
+  color:rgb(68, 183, 0);
+  margin-bottom: 2;
+}
+
+
+/* PIJP 3*/
+.pijp3 { 
+  /* height: 10em; */
+  width: 10em;
+  display: grid; 
+  justify-items: center;
+}
+
+.pijp3 div:first-of-type{
+  height: 2em;
+  width: 7em;
+  background-color: violet;
+  border-radius: 100%;
+  z-index: 100;
+}
+
+.pijp3 div:nth-of-type(2){
+  height: 4em;
+  width: 7em;
+  background-color:rgb(68, 183, 0);  
+  background-image: linear-gradient(to left,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 130%);
+  border-radius:  10px  10px  20px  20px;
+  margin-top: -1.5em;
+
+  display:grid;
+  place-items: center;
+}
+
+
+.pijp3 div:last-of-type{
+  height: 7.5em;
+  width: 5em;
+  background-image: linear-gradient(to right,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 80%);
+  border-radius:  0px 0px  10px  10px;
+  /*   box-shadow: inset 2em 0.1em 3em; */
+  color:rgb(68, 183, 0);
+  margin-bottom: 2 
+}
+
+
+/* PIJP 4*/
+.pijp4 { 
+  /* height: 10em; */
+  width: 10em;
+  display: grid; 
+  justify-items: center;
+}
+
+.pijp4 div:first-of-type{
+  height: 2em;
+  width: 7em;
+  background-color: violet;
+  border-radius: 100%;
+  z-index: 100;
+}
+
+.pijp4 div:nth-of-type(2){
+  height: 4em;
+  width: 7em;
+  background-color:rgb(68, 183, 0);  
+  background-image: linear-gradient(to left,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 130%);
+  border-radius:  10px  10px  20px  20px;
+  margin-top: -1.5em;
+
+  display:grid;
+  place-items: center;
+}
+
+
+.pijp4 div:last-of-type{
+  height: 7.5em;
+  width: 5em;
+  background-image: linear-gradient(to right,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 80%);
+  border-radius:  0px 0px  10px  10px;
+  /*   box-shadow: inset 2em 0.1em 3em; */
+  color:rgb(68, 183, 0);
+  margin-bottom: 2 
+ }
+
+
+
+/* PIJP 5*/
+.pijp5 { 
+  /* height: 10em; */
+  width: 10em;
+  display: grid; 
+  justify-items: center;
+}
+
+.pijp5 div:first-of-type{
+  height: 2em;
+  width: 7em;
+  background-color: violet;
+  border-radius: 100%;
+  z-index: 100;
+}
+
+.pijp5 div:nth-of-type(2){
+  height: 4em;
+  width: 7em;
+  background-color:rgb(68, 183, 0);  
+  background-image: linear-gradient(to left,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 130%);
+  border-radius:  10px  10px  20px  20px;
+  margin-top: -1.5em;
+
+  display:grid;
+  place-items: center;
+}
+
+
+.pijp5 div:last-of-type{
+  height: 7.5em;
+  width: 5em;
+  background-image: linear-gradient(to right,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 80%);
+  border-radius:  0px 0px  10px  10px;
+  /*   box-shadow: inset 2em 0.1em 3em; */
+  color:rgb(68, 183, 0);
+  margin-bottom: 2 
+ }
+
+
+
+/****************/
+/* AFBEELDINGEN */
+/****************/
+.mario {
+  display: block;
+  z-index: 200;
+  width: 6em;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  margin-bottom:-1.5em;
+
+  transform-origin: center bottom;
+  transform: scale(0);
+  transition-duration: 1s;
+}
+
+.mario.ikBenEr {
+  transform: scale(1);
+  
+}
+
+.mario1 {
+  
+}
+
+.mario2 {
+
+}
+
+.mario3 {
+  width: 7em;
+}
+ 
+  
+.mario4 {
+  width: 7em;
+}
+
+.mario5 {
+  width: 7em;
+}
