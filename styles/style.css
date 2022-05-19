@@ -8,10 +8,16 @@
 
 }
 
-/* CSS Document */
+
+
+
+/* CSS Document & KLEUREN PALLET*/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box; 
+
 }
+
+
 
 button:not([disabled]) {
   cursor:pointer;
@@ -22,11 +28,14 @@ button:not([disabled]) {
 /* HELE PAGINA */
 
 body {
-  background-color:rgb(68, 183, 221);
-  height:100%;
+  background-color:rgb(68, 183, 224);
+  height: 100vh;
+  overflow:hidden;
   margin:0; 
 
-  background-size: cover;
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center bottom;
 
 }
 
@@ -61,56 +70,105 @@ body.J2008{
 
 /* DE TITEL */
 h1 {
-  color:crimson;
+  color: #ff0000;
   text-align: center;
   font-family: 'mario_kart_dsregular';
+  position: relative;
+  top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 35pt;
 
 
 }
 
+h2 {
+  text-align: center;
+  color:black;
+  text-align: center;
+  font-family: 'mario_kart_dsregular';
+  font-size: 15pt;
+  margin-top: 0;
+}
+
+
+/* Tekst wolkjes */
+
+a { 
+  display: none;
+  position: absolute;
+  bottom: 29em;
+  width: 12em;
+  color: #ff0000;
+  font-family: 'mario_kart_dsregular';
+  text-decoration: none;
+}
+
+a.tekstZichtbaar, a.tekst2Zichtbaar, a.tekst3Zichtbaar, a.tekst4Zichtbaar, a.tekst5Zichtbaar {
+  display: block;
+}
+
+
+li:nth-of-type(2) a {
+  bottom: 29em;
+  width: 12em;
+left: -4em;
+}
+
+li:nth-of-type(3) a {
+  bottom: 29em;
+  width: 12em;
+  left: -4em;
+}
+
+li:nth-of-type(4) a {
+  width: 12em;
+  left: -4em;
+ 
+}
+
+li:nth-of-type(5) a {
+  width: 12em;
+  left: -4em;
+  
+}
 
 
 /* LIJSTJE */
 ol{
   display: flex;
-  /* background-color: blue; */
   list-style-type: none;
   width: 100%;
   justify-content: space-around;
   position: absolute;
   bottom: 0;
-
-  
 }
+
 
 li {
   position: relative;
-  /* background-color: red; */
-
   display:flex;
   flex-direction: column-reverse;
   align-items: center;
-
-
 }
+
 
 li button {
   margin-top:1em;
   font-family: 'mario_kart_dsregular';
-color: red;
+  color: #ff0000;
+  filter: drop-shadow(0 0 .25em rgb(255, 147, 147)) drop-shadow(0 0 .5em rgb(255, 147, 147));
 
-  background:none;
+  background: none;
   border:none;
 }
 
 
 
-
 /**********/
-/* PIJPEN (div) */
+/* PIJPEN (div) Hulp van Sanne */
 /**********/
 
-/* PIJP (VERANDEREN ZOALS MARIO!!!!) */
 .pijp{
   
   width: 10em;
@@ -122,7 +180,6 @@ color: red;
 .pijp div:first-of-type {
   height: 2em;
   width: 7em;
-  background-color: violet;
   border-radius: 100%;
   z-index: 100;
   }
@@ -130,8 +187,7 @@ color: red;
 .pijp div:nth-of-type(2){
   height: 4em;
   width: 7em;
-  background-color: rgb(68, 183, 0);  
-  background-image: linear-gradient(to left,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 130%);
+  background-image: linear-gradient(to left,rgb(68, 183, 0),rgb(245,245,245), 130%);
   border-radius:  10px  10px  20px  20px;
   margin-top: -1.5em;
 
@@ -147,7 +203,7 @@ color: red;
   /*   box-shadow: inset 2em 0.1em 3em; */
   color:rgb(68, 183, 0);
 }
-}
+
 
 
 
@@ -156,36 +212,97 @@ color: red;
  }
 
   .pijp1 div:first-of-type {
+    background-image: var(--groen-1988)
+    
   }
   .pijp1 div:nth-of-type(2){
+    height: 3em;
+    width: 6em; 
+    background-image: linear-gradient(to top,#91C020,black,#91C020 12%);
+    border-radius:  0px  0px  0px  0px;
+    margin-top: -1.5em;
+  
+    display:grid;
+    place-items: center;
+    border-style: solid;
+  border-color: black;
   }
   .pijp1 div:last-of-type{
-    
+  height: 7.5em;
+  width: 5em;
+  background-image: linear-gradient(to bottom,#91C020,black,#91C020 0%);
+  border-radius:  0px 0px  10px  10px;
+  border-color: black;
+  /*   box-shadow: inset 2em 0.1em 3em; */
+  color:rgb(68, 183, 0);
+  border-style: solid;
+  border-color: black;
 }
+
+
 
 
 /* PIJP 2*/
-.pijp2 { 
+.pijp2 {
 }
 
-  .pijp2 div:first-of-type{
-  }
-  .pijp2 div:nth-of-type(2){
-  } 
-  .pijp2 div:last-of-type{
+.pijp2 div:first-of-type{
+  
 }
 
+.pijp2 div:nth-of-type(2){
+  height: 3em;
+  width: 7em; 
+  background-image: linear-gradient(to right, #40943B 40%, rgb(245,245,245) 70%,#40943B 90%);
+  border-radius:  5px  5px  5px  5px;
+  margin-top: -1.5em;
+
+  display:grid;
+  place-items: center;
+  border-style: solid;
+  border-color: black;
+}
+.pijp2 div:last-of-type{
+background-image: linear-gradient(to right, #40943B 40%,rgb(245,245,245), 70%,#40943B 90%);
+border-radius:  0px 0px  10px  10px;
+color:rgb(68, 183, 0);
+border-style: solid;
+  border-color: black;
+}
+
+
+
+ 
 
 /* PIJP 3*/
 .pijp3 { 
 }
-
-  .pijp3 div:first-of-type{
-  }
-  .pijp3 div:nth-of-type(2){
-  }
-  .pijp3 div:last-of-type{
+.pijp3 div:first-of-type{
+    
+  
 }
+.pijp3 div:nth-of-type(2){
+  height: 2.5em;
+  width: 6.5em;
+  background-color: rgb(68, 183, 0);  
+  background-image: linear-gradient(to left,#3EBA2C,#2E5B24,#3EBA2C 10%);
+  border-radius:  5px  5px  5px  5px;
+  margin-top: -1.5em;
+  border-style: solid;
+  border-color: black;
+
+  display:grid;
+  place-items: center;
+} 
+.pijp3 div:last-of-type{
+  background-image: linear-gradient(to left,#3EBA2C,#2E5B24,#3EBA2C 20%);
+  border-radius:  0px 0px  0px  0px;
+  color:#3EBA2C;
+  border-style: solid;
+  border-color: black;
+}
+
+
 
 
 /* PIJP 4*/
@@ -193,11 +310,30 @@ color: red;
 }
 
   .pijp4 div:first-of-type{
+  
   }
   .pijp4 div:nth-of-type(2){
+    height: 4em;
+    width: 7em;
+    background-color: rgb(68, 183, 0);  
+    background-image: linear-gradient(to left,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 130%);
+    border-radius:  10px  10px  20px  20px;
+    margin-top: -1.5em;
+    border-style: solid;
+    border-color: black;
+  
+    display:grid;
+    place-items: center;
   }
   .pijp4 div:last-of-type{
+  background-image: linear-gradient(to right,rgb(68, 183, 0),whitesmoke,rgb(68, 183, 0) 80%);
+  border-radius:  0px 0px  10px  10px;
+  color:rgb(68, 183, 0);
+  border-style: solid;
+  border-color: black;
 }
+
+
 
 
 
@@ -206,10 +342,27 @@ color: red;
 }
 
   .pijp5 div:first-of-type{
+    background-color: rgb(228, 90, 209);
   }
   .pijp5 div:nth-of-type(2){
+    height: 4em;
+    width: 7em;
+    background-color: rgb(68, 183, 0);  
+    background-image: linear-gradient(to left,rgb(68, 183, 0), rgb(245,245,245),rgb(68, 183, 0) 130%);
+    border-radius:  10px  10px  20px  20px;
+    margin-top: -1.5em;
+    border-style: solid;
+    border-color: black;
+  
+    display:grid;
+    place-items: center;
   }
   .pijp5 div:last-of-type{
+  background-image: linear-gradient(to right,rgb(68, 183, 0),rgb(245,245,245),rgb(68, 183, 0) 80%);
+  border-radius:  0px 0px  10px  10px;
+  color:rgb(68, 183, 0);
+  border-style: solid;
+  border-color: black;
   }
 
 
@@ -257,7 +410,3 @@ color: red;
 }
 
 
-
-background-image: url(../foto/mario\ background\ .jpeg) ;
-  background-position: center;
-  background-size: center
