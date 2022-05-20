@@ -11,6 +11,7 @@ function eersteHoopla() {
     document.body.classList.remove("J1990", "J1996", "J2001", "J2008");
     document.body.classList.toggle("J1988");
     deEersteTekst.classList.toggle ("tekstZichtbaar");
+    
 }
 
 /////////// 2 /////////////

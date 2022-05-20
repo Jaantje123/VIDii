@@ -56,7 +56,6 @@ Voor het vak interface en beweging 2 ga ik aan de slag met een timeline maken va
 
 
 
-
   ### Bevinding 2:
   Mijn schets heb ik laten zien aan mijn klasgenoot Renzo. Renzo heeft zijn mening gedeeld en hierop heb ik mijn schets ideeen aangescherpt. De eerste tip was van Renzo om de achtergrond per jaar te veranderen. Daarnaast kwam hij met het idee om wolkjes in de lucht te doen waarbij tekst en informatie wordt toegevoegd. Om duidelijk verschil te hebben is het leuk om de buizen ook aan te passen op de stijl van dat jaar. Ook zegt hij dat het leuk is om eventueel een finish van de game te laten zien.
 
@@ -90,7 +89,6 @@ De groene buizen staan maar hoe zorg ik ervoor dat ik de Mario afbeeldingen  pre
   Toen kwam de stap om de Mario's te gaan stijlen. Ik vind het heel lastig om te bedenken hoe ik dit kan verbinden aan mijn CSS. Na zelf proberen heb ik hulp van de docent gevraagd. Toen de basis hiervoor was gelukt (bij 1 Mario) kon ik de rest ook gaan stijlen op die manier. 
 
 
-
   ### Bevinding 2:
  Ik wil de jaartallen in op de groene buizen zetten
 
@@ -110,6 +108,25 @@ Omdat ik div heb aangemaakt en ik het precies op de buis wil heb ik als tip gekr
   #### oplossing:
  Omdat ik nooit codeer had ik geen idee dat het fijn was om netjes te coderen. Ik snapte niet zou goed wat dit precies inhield. Doordat Sanne mijn code ging bekijken en hij wilde snappen wat ik deed heeft hij laten zien hoe hij de code het liefste netjes ziet. Ook heb ik geleerd om sommige code's in te korten zodat je makkelijker iets kunt aanpassen. Dit was echt heel fijn want daardoor was mijn CSS een stuk korter en overzichtelijker. 
 
+  ### Bevinding 5:
+  De achtergrond moet mee veranderen als de mario verandert
+
+  #### oplossing:
+ Hierbij heb ik ervoor gezorgt om de achtergrond mee te laten veranderen zodat het beeld compleet is. Het doel was om Mario door een tijdlijn te laten veranderen. Hierbij wilde ik ook dat de achtergrond en de setting dus zou veranderen. Dit is gelukt met met behulp van de docent. Hij heeft het uitgelegd en ik heb het bij de rest van de mario's uitgevoerd.
+
+  ### Bevinding 6:
+  Ik wil mijn mario's uit de paal laten komen als je op het jaartal drukt
+
+  #### oplossing:
+  Toen ik hiermee aan de slag ging had ik een leuke code gevonden op internet. Het wat gelukt om dit toe te voegen en dat de mario's in het beeld sprongen. De feedback van de docent was dat het makkelijker kon met een eigen code. Samen hebben wij gewerkt aan dat mario uit de paal komt.
+
+  ### Bevinding 7:
+  Mario moet via klikken komen en weer gaan
+
+  #### oplossing:
+  Door het gebruik maken van Javascript is het gelukt om mario klikbaar te maken. Dit natuurlijk met behulp van de docent want Javascript was echt iets helemaal nieuws waar ik nog nooit mee had gewerkt. Hierbij had ik wel mijn idee hoe ik het wilde hebben. Ik wilde dat alle Mario's apart konden komen maar ook allemaal tegelijkertijd er kunnen staan. Dit is aangemaakt met de remove knop.
+  Hierbij hebben we 1 aangemaakt en heb ik zelf de rest klaargemaakt.
+
 
 </details>
 
@@ -122,41 +139,22 @@ Omdat ik div heb aangemaakt en ik het precies op de buis wil heb ik als tip gekr
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
+ 
   ### Bevinding 1:
-  Ik wil mijn mario's uit de paal laten komen als je op het jaartal drukt
+  Daphne "Misschien leuk om lijnen om je palen heen zetten"
 
   #### oplossing:
-  Toen ik hiermee aan de slag ging had ik een leuke code gevonden op internet. Het wat gelukt om dit toe te voegen en dat de mario's in het beeld sprongen. De feedback van de docent was dat het makkelijker kon met een eigen code. Samen hebben wij gewerkt aan dat mario uit de paal komt.
-
-
+  Hierbij ben ik gaan zoeken hoe ik lijntjes om mijn palen heen kan krijgen. Op internet heb ik de border-style: solid; en border-color: black; gevonden hiermee heb ik de buizen verder gestyled.
+}
+ 
   ### Bevinding 2:
-  Mario moet via klikken komen en weer gaan
-
-  #### oplossing:
-  Door het gebruik maken van Javascript is het gelukt om mario klikbaar te maken. Dit natuurlijk met behulp van de docent want Javascript was echt iets helemaal nieuws waar ik nog nooit mee had gewerkt. Hierbij had ik wel mijn idee hoe ik het wilde hebben. Ik wilde dat alle Mario's apart konden komen maar ook allemaal tegelijkertijd er kunnen staan. Dit is aangemaakt met de remove knop.
-  Hierbij hebben we 1 aangemaakt en heb ik zelf de rest klaargemaakt.
-
-
-
-  ### Bevinding 3:
-  De achtergrond moet mee veranderen als de mario verandert
-
-  #### oplossing:
- Hierbij heb ik ervoor gezorgt om de achtergrond mee te laten veranderen zodat het beeld compleet is. Het doel was om Mario door een tijdlijn te laten veranderen. Hierbij wilde ik ook dat de achtergrond en de setting dus zou veranderen. Dit is gelukt met met behulp van de docent. Hij heeft het uitgelegd en ik heb het bij de rest van de mario's uitgevoerd.
-
- ### Bevinding 4:
-  De achtergrond moet mee veranderen als de mario verandert
-
-  #### oplossing:
- Hierbij heb ik ervoor gezorgt om de achtergrond mee te laten veranderen zodat het beeld compleet is. Het doel was om Mario door een tijdlijn te laten veranderen. Hierbij wilde ik ook dat de achtergrond en de setting dus zou veranderen. Dit is gelukt met met behulp van de docent. Hij heeft het uitgelegd en ik heb het bij de rest van de mario's uitgevoerd.
-
-  ### Bevinding 5:
  De kleuren en het formaat van de buizen moeten naar de stijl van het jaartal veranderen
 
   #### oplossing:
-Eerst wilde ik de buizen niet veranderen. Een opmerking van de docent was dat het wel leuk was als ik de buizen met het jaartal ging aanpassen. Dat heb ik gedaan aan de hand van voorbeelden van de buizen op internet. Ik kan het nog niet goed gedetailleerd maar ik ben wel blij dat ik ze heb verandert. Ook heb ik uitgevonden hoe ik lijnen om paal kan doen waardoor het meer contrast heeft gekregen.
+  Eerst wilde ik de buizen niet veranderen. Een opmerking van de docent was dat het wel leuk was als ik de buizen met het jaartal ging aanpassen. Dat heb ik gedaan aan de hand van voorbeelden van de buizen op internet. Ik kan het nog niet goed gedetailleerd maar ik ben wel blij dat ik ze heb verandert. Ook heb ik uitgevonden hoe ik lijnen om paal kan doen waardoor het meer contrast heeft gekregen.
 
-  ### Bevinding 5:
+  ### Bevinding 3:
+  "Daphne" Je mist de customer properties nog in je css"
   Customer properties wil ik toevoegen in mijn CSS bestand
 
    #### oplossing:
@@ -167,7 +165,6 @@ Ik  was bezig met dit toevoegen in mijn CSS bestand. Ik weet hoe ik het moet toe
 
 
 </details>
-
 
 
 
@@ -189,6 +186,7 @@ Ik  was bezig met dit toevoegen in mijn CSS bestand. Ik weet hoe ik het moet toe
 
  Wat ik heb geleerd is dat ik gewoon moet beginnen en als het niet lukt ik vragen moet stellen. 
  Vragen stellen of hulp vragen is de key to succes, althans dat is het voor mij.
+ Het meest blij ben ik dat ik ook echt stukjes code kan lezen en soms mijn fouten kan terug vinden. 
 
  Ik had van te voren nooit gedacht dat ik (met hulp) mijn schets in werkelijkheid had kunnen brengen.
 
